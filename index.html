@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Image Gallery</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styling -->
+</head>
+<body>
+    <h1>🐱 Cat Image Gallery</h1> <!-- Main heading of the page -->
+
+    <!-- Gallery container to hold all images -->
+    <div class="gallery">
+        <!-- Individual gallery items with images and captions -->
+        <div class="gallery-item">
+            <img src="cat.jpg" alt="Sleepy Kitty" width="400" height="400">
+            <p class="caption">Sleepy Kitty</p>
+        </div>
+        <div class="gallery-item">
+            <img src="cat2.jpg" alt="Curious Cat" width="400" height="400">
+            <p class="caption">Curious Cat</p>
+        </div>
+        <div class="gallery-item">
+            <img src="cat3.jpg" alt="Playful Kitten" width="400" height="400">
+            <p class="caption">Playful Kitten</p>
+        </div>
+        <div class="gallery-item">
+            <img src="cat4.jpg" alt="Fluffy Cat" width="400" height="400">
+            <p class="caption">Fluffy Cat</p>
+        </div>
+        <div class="gallery-item">
+            <img src="cat5.jpg" alt="Majestic Feline" width="400" height="400">
+            <p class="caption">Majestic Feline</p>
+        </div>
+        <div class="gallery-item">
+            <img src="cat6.jpg" alt="Relaxing Cat" width="400" height="400">
+            <p class="caption">Relaxing Cat</p>
+        </div>
+    </div>
+
+    <!-- Lightbox for enlarged image display -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span> <!-- Close button for lightbox -->
+        <img class="lightbox-content" id="lightbox-img"> <!-- Enlarged image display -->
+        <p id="lightbox-caption"></p> <!-- Caption for the enlarged image -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file for interactivity -->
+</body>
+</html>
